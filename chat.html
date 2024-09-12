@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Settings - Kokoa Talk</title>
+    <title>Chat w/nico - Kokoa Talk</title>
   </head>
 
-  <body>
+  <body id="chat-screen">
     <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
@@ -31,67 +31,17 @@
         <a href="more.html"><i class="fa-solid fa-chevron-left fa-2x"></i></a>
       </div>
       <div class="alt-header__column">
-        <h1 class="alt-header__title">Settings</h1>
+        <h1 class="alt-header__title">Nicolas</h1>
       </div>
       <div class="alt-header__column">
         <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+        <i class="fa-solid fa-bars fa-2x"></i>
       </div>
     </header>
 
-    <main class="main-screen">
-      <ul class="settings-list">
-        <li class="settings__setting">
-          <div class="setting__setting-column">
-            <i class="fa-solid fa-bullhorn"></i>
-            <span>Notices</span>
-          </div>
-        </li>
-        <li class="settings__setting">
-          <div class="setting__setting-column">
-            <i class="fa-solid fa-flask"></i>
-            <span>Kokoa Lab</span>
-          </div>
-          <div class="setting__setting-column"></div>
-        </li>
-        <li class="settings__setting">
-          <div class="setting__setting-column">
-            <i class="fa-solid fa-circle-info"></i>
-            <span>Version</span>
-          </div>
-          <div class="setting__setting-column">Latest Version</div>
-        </li>
-      </ul>
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">Tuesday, June 25, 2024</div>
     </main>
-
-    <nav class="nav">
-      <ul class="nav__list">
-        <li class="nav__btn">
-          <a class="nav__link" href="friends.html">
-            <i class="fa-regular fa-user fa-2x"></i>
-          </a>
-        </li>
-
-        <li class="nav__btn">
-          <a class="nav__link" href="chats.html">
-            <span class="nav__notification badge">1</span>
-            <i class="fa-regular fa-comment fa-2x"></i>
-          </a>
-        </li>
-
-        <li class="nav__btn">
-          <a class="nav__link" href="find.html">
-            <i class="fa-solid fa-magnifying-glass fa-2x"></i>
-          </a>
-        </li>
-
-        <li class="nav__btn">
-          <a class="nav__link" href="more.html">
-            <div class="nav__notification2"></div>
-            <i class="fa-solid fa-ellipsis fa-2x"></i>
-          </a>
-        </li>
-      </ul>
-    </nav>
 
     <script
       src="https://kit.fontawesome.com/9076bbc1a6.js"
