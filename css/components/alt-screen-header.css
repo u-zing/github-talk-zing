@@ -6,7 +6,7 @@
   justify-content: center;
 }
 .alt-header__title {
-  font-size: 32px;
+  font-size: 25px;
   font-weight: 600;
 }
 .alt-header__column:first-child {
@@ -25,4 +25,7 @@
 }
 .alt-header__column {
   width: 33%;
+}
+.alt-header__column i {
+  color: white;
 }

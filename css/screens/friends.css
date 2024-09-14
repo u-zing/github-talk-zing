@@ -6,23 +6,36 @@
   font-size: 16px;
   margin-bottom: 15px;
   margin-top: -10px;
+  color: #3174da;
 }
 
 .friends-screen {
   padding: 0px var(--horizontal-space);
 }
-.friends-screen__channel {
-  margin-top: 25px;
+.friends-screen__find {
+  margin-top: 20px;
   border-top: var(--main-border);
   padding-top: 15px;
 }
-.friends-screen_channel-header {
-  margin-bottom: 30px;
+.friends-screen_find-header {
+  margin-bottom: 20px;
   display: flex;
   justify-content: space-between;
-  color: rgba(0, 0, 0, 0.4);
+  align-items: center;
 }
 
+.friends-screen_find-header input {
+  width: 100%;
+  background-color: #151b23;
+  padding: 10px;
+  border: none;
+  color: white;
+  position: relative;
+}
+.friends-screen_find-header i {
+  position: absolute;
+  right: 35px;
+}
 @keyframes hideSplashScreen {
   form {
     opacity: 1;
@@ -34,7 +47,7 @@
 }
 
 #splash-screen {
-  background-color: var(--yellow);
+  background-color: #151b23;
   position: absolute;
   height: 100vh;
   width: 100vw;
@@ -43,6 +56,6 @@
   justify-content: center;
   align-items: center;
   font-size: 120px;
-  animation: hideSplashScreen 0.3s ease-in-out forwards;
+  animation: hideSplashScreen 0.2s ease-in-out forwards;
   animation-delay: 1s;
 }
