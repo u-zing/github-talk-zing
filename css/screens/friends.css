@@ -49,7 +49,7 @@
 #splash-screen {
   background-color: #151b23;
   position: absolute;
-  height: 100vh;
+  height: calc(100vh - 70px);
   width: 100vw;
   top: 0;
   display: flex;
@@ -58,4 +58,8 @@
   font-size: 120px;
   animation: hideSplashScreen 0.2s ease-in-out forwards;
   animation-delay: 1s;
+}
+#friends-body {
+  overflow-y: auto;
+  position: relative;
 }
