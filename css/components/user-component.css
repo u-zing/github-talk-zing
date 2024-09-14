@@ -51,11 +51,11 @@
   display: block;
   color: rgba(255, 255, 255, 0.774);
 }
-.user-component__chatList {
-  background-color: #151b23;
+.user-component__chatList:hover {
+  background-color: #e1e1e1;
   padding: 15px;
-  margin-bottom: 10px;
 }
+
 .badge {
   margin-left: auto;
 }

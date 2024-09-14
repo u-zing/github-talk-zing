@@ -7,6 +7,7 @@
   justify-content: center;
   padding: 5px 3px;
   color: white;
+  background-color: #010409;
 }
 .status-bar__column {
   width: 33%;
