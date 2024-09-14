@@ -9,7 +9,7 @@
 .user-component__avatar {
   width: 70px;
   height: 70px;
-  border-radius: 30px;
+  border-radius: 50px;
   margin-right: 20px;
 }
 .user-component__title {
@@ -28,7 +28,7 @@
 .user-component__avatar--sm {
   width: 60px;
   height: 60px;
-  border-radius: 25px;
+  border-radius: 50%;
 }
 .user-component__title--not-bold {
   font-weight: 400;
