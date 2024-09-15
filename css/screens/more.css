@@ -32,3 +32,41 @@
   font-size: 32px;
   color: white;
 }
+
+.more-screen__profile {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.more-screen__profile > img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.more-screen__profile__text {
+  margin-bottom: 20px;
+}
+.more-screen__profile__title {
+  opacity: 0.7;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.more-screen__profile__edit {
+  background-color: #212830;
+  font-size: 15px;
+  padding: 7px 50px;
+  border-radius: 10px;
+  border: 0.1px solid #5f626576;
+}
+.more-screen__profile__follow {
+  font-size: 13px;
+  opacity: 0.5;
+}
+.more-screen__profile__follow:nth-child(2) {
+  opacity: 1;
+}
+.more-screen__more {
+  border: 2px solid wheat;
+}

@@ -6,23 +6,22 @@
 }
 .recommended-friends__title {
   font-size: 14px;
-  color: var(--gray);
+  color: #3174da;
 }
 .recommended-friends span {
   display: block;
   margin: 100px 0px;
   text-align: center;
   font-size: 18px;
-  color: var(--gray);
+  color: white;
 }
 .open-chat__header {
   display: flex;
   justify-content: space-between;
-  opacity: 0.8;
   margin-bottom: 25px;
 }
 .open-chat__header span {
-  opacity: 0.6;
+  color: #3174da;
 }
 .open-post {
   display: flex;
@@ -100,5 +99,5 @@
 }
 .open-post__heart-count:hover i {
   will-change: transform;
-  animation: heartBeat 2s linear infinite;
+  animation: heartBeat 1s linear infinite;
 }
