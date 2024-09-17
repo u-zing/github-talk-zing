@@ -7,7 +7,7 @@
   padding-top: 40px;
 }
 .more-suggestions__title {
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 .more-suggestions__icons {
   display: flex;
@@ -18,47 +18,50 @@
   flex-direction: column;
   align-items: center;
 }
-.more-suggestions__icon-image {
-  width: 60px;
-  height: 60px;
-  background-color: var(--yellow);
+.more-suggestions__icon-image img {
+  width: 75px;
+  height: 75px;
+  padding: 1px;
+  background-color: white;
   border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 10px;
 }
-.more-suggestions__icon-image i {
-  font-size: 32px;
-  color: white;
+.more-screen-top {
+  display: flex;
 }
-
 .more-screen__profile {
   display: flex;
   align-items: flex-start;
-  flex-direction: column;
   margin-left: 20px;
+  margin-right: 20px;
 }
 .more-screen__profile > img {
-  width: 160px;
-  height: 160px;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
   margin-bottom: 20px;
+  margin-right: 40px;
 }
 .more-screen__profile__text {
-  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
 }
 .more-screen__profile__title {
   opacity: 0.7;
-  font-size: 20px;
-  margin-bottom: 20px;
+  font-size: 30px;
+  margin-bottom: 30px;
 }
 .more-screen__profile__edit {
   background-color: #212830;
   font-size: 15px;
-  padding: 7px 50px;
+  padding: 7px 80px;
   border-radius: 10px;
   border: 0.1px solid #5f626576;
+  margin-bottom: 30px;
 }
 .more-screen__profile__follow {
   font-size: 13px;
@@ -67,6 +70,10 @@
 .more-screen__profile__follow:nth-child(2) {
   opacity: 1;
 }
-.more-screen__more {
-  border: 2px solid wheat;
+.more-screen__repositories {
+  border: 2px solid rgba(255, 255, 255, 0.227);
+  width: 50%;
+  padding: 15px;
+  border-radius: 15px;
+  box-sizing: border-box;
 }

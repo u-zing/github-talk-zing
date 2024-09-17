@@ -1,7 +1,7 @@
 .settings__setting {
-  padding: 20px 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 15px 0px;
   font-size: 20px;
+  margin-bottom: 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -13,4 +13,16 @@
 }
 .settings__setting-column:last-child {
   opacity: 0.5;
+}
+.settings-list li:first-child,
+.settings-list li:nth-child(8),
+.settings-list li:nth-child(9),
+.settings-list li:nth-child(11),
+.settings-list li:nth-child(14) {
+  border-bottom: 1px solid rgba(240, 238, 238, 0.116);
+}
+.settings__setting:hover {
+  background-color: #212830;
+  border-radius: 10px;
+  padding: 15px 0px 15px 10px;
 }
