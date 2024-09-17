@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Find - Kokoa Talk</title>
+    <title>Find - GitHub Talk</title>
   </head>
 
   <body>
@@ -51,40 +51,93 @@
         </div>
       </div>
 
-      <div class="recommended-friends">
-        <h6 class="recommended-friends__title">Recommended Friends</h6>
-        <span>You have no recommended friends.</span>
+      <div class="repository-create">
+        <h6 class="repository-create__title">Start a new repository</h6>
+        <span
+          >A repository contains all of your project's files,<br />
+          revision history, and collaborator discussion.</span
+        >
+        <form class="repository-create__form">
+          <label for="name">repository name *</label>
+          <input
+            id="name"
+            type="text"
+            placeholder="name your new repository..."
+          />
+          <div class="repository-create__form-radio">
+            <input type="radio" value="public" id="public" />
+            <label for="public">Public</label>
+          </div>
+          <div class="repository-create__form-radio">
+            <input type="radio" value="private" id="private" />
+            <label for="private">Private</label>
+          </div>
+          <input
+            type="button"
+            class="repository-create__form-btn"
+            value="Create a new repository"
+          />
+        </form>
       </div>
 
       <div class="open-chat">
         <div class="open-chat__header">
-          <h4>Open Chat</h4>
+          <h4>Explore repositories</h4>
           <span
-            >Go to Open chat Home <i class="fa-solid fa-chevron-right fa-xs"></i
+            >Explore more <i class="fa-solid fa-arrow-right fa-sm"></i
           ></span>
         </div>
 
-        <div class="open-post">
-            <div class="open-post__column">
-                <h5 class="open-post__title">#BTS</h5>
-                <h6 class="open-post__hashtags">#bts#army#friends</h6>
-                <div class="open-post__members">
-                    <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDA0MjhfMjQ3%2FMDAxNzE0MzE0MTk4OTE0.H0jnmRzv_RtoRINPYYwfoFjDttbjpBu4i1uh1huaE2og.S9me1RbMMK8MGEvyVFxv_esGORWeuvj5V6R3GDiXZKcg.JPEG%2FIMG_3863.JPG&type=sc960_832"/>
-                    <span class="open-post__member-cont">802 members</span>
-                <div class="divider"></div>
-                <span class="open-post__member-status">Active</span>
-                 </div>
-            </div>
-
-            <div class="open-post__column">
-             <div class="open-post__photo">
-              <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDA0MjhfMjQ3%2FMDAxNzE0MzE0MTk4OTE0.H0jnmRzv_RtoRINPYYwfoFjDttbjpBu4i1uh1huaE2og.S9me1RbMMK8MGEvyVFxv_esGORWeuvj5V6R3GDiXZKcg.JPEG%2FIMG_3863.JPG&type=sc960_832"/>
-              <div class="open-post__heart-count">
-                <i class="fa-solid fa-heart fa-xs"></i><span>326</span>
-              </div>
-             </div>
-            </div>
+        <div class="explore">
+          <div class="explore__column">
+            <div class="explore__column-profile">
+              <img src="https://developer.microsoft.com/_devcom/images/logo-ms-social.png"/>
+              <h5 class="explore__title">
+              AzureAD / microsoft-authentication-<br>library-for-dotnet
+              </h5>
+          </div>
+          <h6 class="explore__subtitle">
+            Microsoft Authentication Library (MSAL) for .NET
+          </h6>
+          <div class="explore__members">
+            <i class="fa-regular fa-star"></i>
+            <span>1.4k</span>
+            <div class="divider"></div>
+            <div class="explore__members-circle"></div>
+            <span>C#</span>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <div>
+            <i class="fa-regular fa-star fa-sm"></i>
+          </div>
+        </div>
       </div>
+      <div class="explore">
+        <div class="explore__column">
+          <div class="explore__column-profile">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvNanM0qaocCJSd6DSWMIQr_4l2ZZ1qAjZpw&s"/>
+            <h5 class="explore__title">
+              uBlockOrigin / uAssets
+            </h5>
+        </div>
+        <h6 class="explore__subtitle">
+          Resources for uBlock Origin, uMatrix: static filter lists, ready-to-use rulesets, etc.
+        </h6>
+        <div class="explore__members">
+          <i class="fa-regular fa-star"></i>
+          <span>4k</span>
+          <div class="divider"></div>
+          <div class="explore__members-circle"></div>
+          <span>Adblock Filter List</span>
+        </div>
+      </div>
+      <div class="user-component__column">
+        <div>
+          <i class="fa-regular fa-star fa-sm"></i>
+        </div>
+      </div>
+    </div>
     </main>
 
     <nav class="nav">
