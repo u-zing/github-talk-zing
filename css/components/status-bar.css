@@ -1,5 +1,6 @@
 .status-bar {
   position: sticky;
+  background-color: #010409;
   top: 0;
   width: 100%;
   box-sizing: border-box;
@@ -7,7 +8,7 @@
   justify-content: center;
   padding: 5px 3px;
   color: white;
-  background-color: #010409;
+  z-index: 5;
 }
 .status-bar__column {
   width: 33%;
