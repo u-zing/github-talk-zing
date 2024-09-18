@@ -53,9 +53,13 @@
   }
 }
 
+.friends-screen {
+  margin-bottom: 100px;
+}
+
 #splash-screen {
   background-color: #151b23;
-  position: absolute;
+  position: fixed;
   height: 100vh;
   width: 100vw;
   top: 0;

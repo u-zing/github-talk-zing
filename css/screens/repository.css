@@ -5,6 +5,7 @@
   margin-top: 15px;
   border-top: var(--main-border);
   padding-top: 40px;
+  margin-bottom: 100px;
 }
 .more-suggestions__title {
   margin-bottom: 25px;
@@ -13,7 +14,7 @@
   display: flex;
 }
 .more-suggestions__icon {
-  margin-right: 30px;
+  margin-right: 35px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -58,10 +59,14 @@
 .more-screen__profile__edit {
   background-color: #212830;
   font-size: 15px;
-  padding: 7px 80px;
+  width: 200px;
+  height: 33px;
   border-radius: 10px;
   border: 0.1px solid #5f626576;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .more-screen__profile__follow {
   font-size: 13px;
@@ -76,4 +81,18 @@
   padding: 15px;
   border-radius: 15px;
   box-sizing: border-box;
+}
+
+.icon-row-repository {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 10px;
+  justify-items: center;
+}
+
+.icon-row-repository__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }

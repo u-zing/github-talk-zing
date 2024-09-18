@@ -1,5 +1,8 @@
+.find-screen {
+  margin-bottom: 100px;
+}
 .repository-create {
-  margin: 10px 0px;
+  margin: 50px 0px;
   padding: 20px;
   border: var(--main-border);
   display: flex;
@@ -97,11 +100,5 @@
   height: 20px;
   background-color: var(--yellow);
   border-radius: 50%;
-  margin: 0px 10px;
-}
-.explore__members .divider {
-  width: 2px;
-  height: 15px;
-  background-color: var(--gray);
-  margin: 0px 10px;
+  margin: 0px 10px 0px 30px;
 }
