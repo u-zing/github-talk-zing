@@ -96,3 +96,13 @@
   justify-content: center;
   flex-direction: column;
 }
+.icon-row__icon:hover i,
+.icon-row__icon:hover span {
+  transform: scale(1.2); /* 1.2배로 확대 */
+  transition: transform 0.3s ease-in-out; /* 부드러운 확대 애니메이션 */
+}
+
+.icon-row__icon i,
+.icon-row__icon span {
+  transition: transform 0.3s ease-in-out; /* 마우스 올리기 전에도 부드러운 전환 적용 */
+}
